@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-// import wadirum from "../public/images/wadirum.jpg";
-// import bamboo_train from "..public/images/bamboo_train.jpg";
-// import petra from "../public/images/petra.jpg";
-// import singapore from "../public/images/singapore.jpg";
+import wadirum from "@/images/wadirum.jpg";
+import bamboo_train from "@images/bamboo_train.jpg";
+import petra from "@/images/petra.jpg";
+import singapore from "@/images/singapore.jpg";
 import battambang from "@/images/battambang.jpg";
 
 import Card from "@/components/Card";
@@ -104,30 +104,30 @@ export default function Home() {
           </p>
         </article>
         <div className="flex gap-5 overflow-hidden">
-          {/* <Image
+          <Image
             priority
-            src={profil}
+            src={wadirum}
             className="rounded-lg"
             alt="Veronika und Stefan beim Sonnenuntergang in Wadi Rum, Jordanien"
-          /> */}
-          {/* <Image
+          />
+          <Image
             src={bamboo_train}
             alt="Veronika und Stefan auf dem Bamboo Train in Battambang, Kambodscha"
             className="hidden rounded-lg"
-          /> */}
-          {/* <Image
+          />
+          <Image
             src={petra}
             className="hidden rounded-lg"
             alt="Veronika und Stefan in Petra, Jordanien"
-          /> */}
-          {/* <Image
+          />
+          <Image
             src={singapore}
             className="hidden rounded-lg"
             alt="Veronika und Stefan in Singapur"
-          /> */}
+          />
           <Image
             src={battambang}
-            className="rounded-lg"
+            className="hidden rounded-lg"
             alt="Veronika und Stefan in Battambang"
           />
         </div>
