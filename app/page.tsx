@@ -1,13 +1,10 @@
+import Card from "@/components/Card";
+import { CalendarClock, MapPin, CircleAlert } from "lucide-react";
+
+import ImageTicker from "@/components/ImageTicker";
 import Image from "next/image";
 
 import wadirum from "@/images/wadirum.jpg";
-import bamboo_train from "@/images/bamboo_train.jpg";
-import petra from "@/images/petra.jpg";
-import singapore from "@/images/singapore.jpg";
-import battambang from "@/images/battambang.jpg";
-
-import Card from "@/components/Card";
-import { CalendarClock, MapPin, CircleAlert } from "lucide-react";
 
 export default function Home() {
   return (
@@ -104,33 +101,16 @@ export default function Home() {
           </p>
         </article>
         {/* TODO: Make this a ticker on large devices; include a scroll animation? */}
-        <div className="flex w-full items-center justify-center gap-5 overflow-hidden">
+        <div className="lg:hidden">
           <Image
             priority
             src={wadirum}
-            className="max-h-[400px] max-w-[600px] rounded-lg object-cover"
+            className="max-h-[400px] w-full max-w-[600px] rounded-lg object-cover lg:mx-4"
             alt="Veronika und Stefan beim Sonnenuntergang in Wadi Rum, Jordanien"
           />
-          <Image
-            src={bamboo_train}
-            alt="Veronika und Stefan auf dem Bamboo Train in Battambang, Kambodscha"
-            className="hidden max-h-[400px] max-w-[600px] rounded-lg object-cover lg:block"
-          />
-          <Image
-            src={petra}
-            className="hidden max-h-[400px] max-w-[600px] rounded-lg object-cover lg:block"
-            alt="Veronika und Stefan in Petra, Jordanien"
-          />
-          <Image
-            src={singapore}
-            className="hidden max-h-[400px] max-w-[600px] rounded-lg object-cover lg:block"
-            alt="Veronika und Stefan in Singapur"
-          />
-          <Image
-            src={battambang}
-            className="hidden max-h-[400px] max-w-[600px] rounded-lg object-cover lg:block"
-            alt="Veronika und Stefan in Battambang"
-          />
+        </div>
+        <div className="h-0 w-full overflow-hidden lg:h-auto">
+          <ImageTicker />
         </div>
         <article className="flex w-full max-w-[600px] flex-col gap-5 md:flex-row md:justify-between">
           <Card
