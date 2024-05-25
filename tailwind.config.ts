@@ -8,10 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        softblush: "#F8E1E7",
+        darkdusty: "#D49191",
+        saturatedgray: "#5C3D3D",
+        darkgreen: "#33474D",
+        strongblush: "#DF6B6B",
+        neutralblush: "#F6EEEE",
+      },
+      fontFamily: {
+        lato: ["var(--font-lato)"],
+        greatvibes: ["var(--font-greatvibes)"],
       },
     },
   },
