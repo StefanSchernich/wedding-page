@@ -1,10 +1,11 @@
 import Image from "next/image";
 
-import wadirum from "../public/images/wadirum.jpg";
-import bamboo_train from "..public/images/bamboo_train.jpg";
-import petra from "../public/images/petra.jpg";
-import singapore from "../public/images/singapore.jpg";
-import battambang from "../public/images/battambang.jpg";
+// import wadirum from "../public/images/wadirum.jpg";
+// import bamboo_train from "..public/images/bamboo_train.jpg";
+// import petra from "../public/images/petra.jpg";
+// import singapore from "../public/images/singapore.jpg";
+// import battambang from "../public/images/battambang.jpg";
+import profil from "@/public/images/profil.jpg";
 
 import Card from "@/components/Card";
 import { CalendarClock, MapPin, CircleAlert } from "lucide-react";
@@ -106,11 +107,11 @@ export default function Home() {
         <div className="flex gap-5 overflow-hidden">
           <Image
             priority
-            src={wadirum}
+            src={profil}
             className="rounded-lg"
             alt="Veronika und Stefan beim Sonnenuntergang in Wadi Rum, Jordanien"
           />
-          <Image
+          {/* <Image
             src={bamboo_train}
             alt="Veronika und Stefan auf dem Bamboo Train in Battambang, Kambodscha"
             className="hidden rounded-lg"
@@ -129,7 +130,7 @@ export default function Home() {
             src={battambang}
             className="hidden rounded-lg"
             alt="Veronika und Stefan in Battambang"
-          />
+          /> */}
         </div>
         <article className="flex w-full flex-col gap-5">
           <Card
