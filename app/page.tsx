@@ -4,7 +4,7 @@ import Image from "next/image";
 // import bamboo_train from "..public/images/bamboo_train.jpg";
 // import petra from "../public/images/petra.jpg";
 // import singapore from "../public/images/singapore.jpg";
-// import battambang from "../public/images/battambang.jpg";
+import battambang from "@/public/images/battambang.jpg";
 import profil from "@/public/images/profil.jpg";
 
 import Card from "@/components/Card";
@@ -115,22 +115,22 @@ export default function Home() {
             src={bamboo_train}
             alt="Veronika und Stefan auf dem Bamboo Train in Battambang, Kambodscha"
             className="hidden rounded-lg"
-          />
-          <Image
+          /> */}
+          {/* <Image
             src={petra}
             className="hidden rounded-lg"
             alt="Veronika und Stefan in Petra, Jordanien"
-          />
-          <Image
+          /> */}
+          {/* <Image
             src={singapore}
             className="hidden rounded-lg"
             alt="Veronika und Stefan in Singapur"
-          />
+          /> */}
           <Image
             src={battambang}
-            className="hidden rounded-lg"
+            className="rounded-lg"
             alt="Veronika und Stefan in Battambang"
-          /> */}
+          />
         </div>
         <article className="flex w-full flex-col gap-5">
           <Card
