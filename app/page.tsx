@@ -4,8 +4,7 @@ import Image from "next/image";
 // import bamboo_train from "..public/images/bamboo_train.jpg";
 // import petra from "../public/images/petra.jpg";
 // import singapore from "../public/images/singapore.jpg";
-import battambang from "@/public/images/battambang.jpg";
-import profil from "@/public/images/profil.jpg";
+import battambang from "@/images/battambang.jpg";
 
 import Card from "@/components/Card";
 import { CalendarClock, MapPin, CircleAlert } from "lucide-react";
@@ -105,12 +104,12 @@ export default function Home() {
           </p>
         </article>
         <div className="flex gap-5 overflow-hidden">
-          <Image
+          {/* <Image
             priority
             src={profil}
             className="rounded-lg"
             alt="Veronika und Stefan beim Sonnenuntergang in Wadi Rum, Jordanien"
-          />
+          /> */}
           {/* <Image
             src={bamboo_train}
             alt="Veronika und Stefan auf dem Bamboo Train in Battambang, Kambodscha"
