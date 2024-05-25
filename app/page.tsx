@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-import wadirum from "@/images/wadirum.jpg";
-import bamboo_train from "@/images/bamboo_train.jpg";
-import petra from "@/images/petra.jpg";
-import singapore from "@/images/singapore.jpg";
-import battambang from "@/images/battambang.jpg";
+import wadirum from "/images/wadirum.jpg";
+import bamboo_train from "/images/bamboo_train.jpg";
+import petra from "/images/petra.jpg";
+import singapore from "/images/singapore.jpg";
+import battambang from "/images/battambang.jpg";
 
 import Card from "@/components/Card";
 import { CalendarClock, MapPin, CircleAlert } from "lucide-react";
