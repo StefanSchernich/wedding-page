@@ -9,6 +9,7 @@ import bamboo_train from "@/images/bamboo_train.jpg";
 import petra from "@/images/petra.jpg";
 import singapore from "@/images/singapore.jpg";
 import battambang from "@/images/battambang.jpg";
+import ContactForm from "@/components/ContactForm";
 
 const images = [
   <Image
@@ -173,31 +174,7 @@ export default function Home() {
       </section>
       <section className="flex w-full flex-col items-center gap-2 px-5 py-8">
         {/* TODO: Add form functionality */}
-        <form className="flex w-full max-w-[600px] flex-col items-center gap-4">
-          <p className="mb-4 text-xl">
-            Ihr könnt per Mail, Handy oder das folgende Kontaktformular
-            Rückmeldung geben.
-          </p>
-          <input
-            type="text"
-            className="w-full rounded-lg px-4 py-2 outline-none focus-visible:ring-2 focus-visible:ring-darkdusty"
-            placeholder="Name"
-          />
-          <input
-            type="email"
-            className="w-full rounded-lg px-4 py-2 outline-none focus-visible:ring-2 focus-visible:ring-darkdusty"
-            placeholder="email@domain.com"
-          />
-          <textarea
-            className="min-h-40 w-full rounded-lg px-4 py-2 outline-none focus-visible:ring-2 focus-visible:ring-darkdusty"
-            placeholder="Nachricht"
-          />
-          <input
-            type="submit"
-            className="w-full max-w-[388px] rounded-lg bg-saturatedgray py-3 text-white"
-            value="Senden"
-          />
-        </form>
+        <ContactForm />
         <svg // borde
           xmlns="http://www.w3.org/2000/svg"
           className="m-auto mt-8 w-[280px] fill-darkdusty"
