@@ -13,8 +13,6 @@ const great_vibes = Great_Vibes({
   variable: "--font-greatvibes",
 });
 
-// TODO: Add favicon
-
 export const metadata: Metadata = {
   title: "Veronika & Stefan",
   description: "Hochzeits-Website von Veronika und Stefan",
