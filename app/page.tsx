@@ -155,12 +155,12 @@ export default function Home() {
           <Card
             icon={<CalendarClock size={40} strokeWidth={1.5} />}
             text1="Freitag, 04.10.2024"
-            text2="18:30 Uhr"
+            text2="17:00 Uhr"
           />
           <Card
             icon={<MapPin size={40} strokeWidth={1.5} />}
             text1="Hotel Herzogspark"
-            text2="91074 Herzogenaurch"
+            text2="91074 Herzogenaurach"
           />
         </article>
       </section>
@@ -173,7 +173,6 @@ export default function Home() {
         </div>
       </section>
       <section className="flex w-full flex-col items-center gap-2 px-5 py-8">
-        {/* TODO: Add form functionality */}
         <ContactForm />
         <svg // borde
           xmlns="http://www.w3.org/2000/svg"
