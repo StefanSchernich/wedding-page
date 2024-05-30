@@ -28,8 +28,6 @@ const images = [
     src={bamboo_train}
     alt="Veronika und Stefan auf dem Bamboo Train in Battambang, Kambodscha"
     className="mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
-    onContextMenu={(e: React.MouseEvent) => e.preventDefault()}
-    onTouchStart={(e: React.TouchEvent) => e.preventDefault()}
   />,
   <Image
     key="petra"
@@ -37,8 +35,6 @@ const images = [
     src={petra}
     className="mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
     alt="Veronika und Stefan in Petra, Jordanien"
-    onContextMenu={(e: React.MouseEvent) => e.preventDefault()}
-    onTouchStart={(e: React.TouchEvent) => e.preventDefault()}
   />,
   <Image
     sizes="(max-width: 600px) 100vw, 600px"
@@ -46,8 +42,6 @@ const images = [
     src={wadirum}
     className="mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
     alt="Veronika und Stefan beim Sonnenuntergang in Wadi Rum, Jordanien"
-    onContextMenu={(e: React.MouseEvent) => e.preventDefault()}
-    onTouchStart={(e: React.TouchEvent) => e.preventDefault()}
   />,
   <Image
     key="singapore"
@@ -55,8 +49,6 @@ const images = [
     src={singapore}
     className="mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
     alt="Veronika und Stefan in Singapur"
-    onContextMenu={(e: React.MouseEvent) => e.preventDefault()}
-    onTouchStart={(e: React.TouchEvent) => e.preventDefault()}
   />,
   <Image
     key="ijen"
@@ -64,8 +56,6 @@ const images = [
     src={ijen}
     className="mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
     alt="Veronika und Stefan auf dem Ijen, Indonesien"
-    onContextMenu={(e: React.MouseEvent) => e.preventDefault()}
-    onTouchStart={(e: React.TouchEvent) => e.preventDefault()}
   />,
 ];
 
