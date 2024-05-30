@@ -26,27 +26,27 @@ const images = [
     sizes="(max-width: 600px) 100vw, 600px"
     src={bamboo_train}
     alt="Veronika und Stefan auf dem Bamboo Train in Battambang, Kambodscha"
-    className="hidden max-h-[400px] max-w-[600px] rounded-lg object-cover lg:mx-4 lg:block"
+    className="max-h-[400px] max-w-[600px] rounded-lg object-cover lg:mx-4"
   />,
   <Image
     key="petra"
     sizes="(max-width: 600px) 100vw, 600px"
     src={petra}
-    className="hidden max-h-[400px] max-w-[600px] rounded-lg object-cover lg:mx-4 lg:block"
+    className="max-h-[400px] max-w-[600px] rounded-lg object-cover lg:mx-4"
     alt="Veronika und Stefan in Petra, Jordanien"
   />,
   <Image
     key="singapore"
     sizes="(max-width: 600px) 100vw, 600px"
     src={singapore}
-    className="hidden max-h-[400px] max-w-[600px] rounded-lg object-cover lg:mx-4 lg:block"
+    className="max-h-[400px] max-w-[600px] rounded-lg object-cover lg:mx-4"
     alt="Veronika und Stefan in Singapur"
   />,
   <Image
     key="battambang"
     sizes="(max-width: 600px) 100vw, 600px"
     src={battambang}
-    className="hidden max-h-[400px] max-w-[600px] rounded-lg object-cover lg:mx-4 lg:block"
+    className="max-h-[400px] max-w-[600px] rounded-lg object-cover lg:mx-4"
     alt="Veronika und Stefan in Battambang"
   />,
 ];
@@ -96,7 +96,6 @@ export default function Home() {
             wir heiraten und freuen uns, euch zu unserer Hochzeit einzuladen!
           </p>
         </article>
-        {/* TODO: include a scroll animation? */}
         <div className="lg:hidden">
           <Image
             priority
@@ -105,10 +104,7 @@ export default function Home() {
             alt="Veronika und Stefan beim Sonnenuntergang in Wadi Rum, Jordanien"
           />
         </div>
-        {/* BUG: Moves the container on page and creates gaps on side */}
-        <div className="-mt-16 w-full lg:mt-auto lg:block">
-          <ImageTicker>{images}</ImageTicker>
-        </div>
+        <ImageTicker>{images}</ImageTicker>
         <article className="flex w-full flex-col items-center gap-5 md:flex-row md:justify-center">
           <Card
             icon={<CalendarClock size={40} strokeWidth={1.5} />}
