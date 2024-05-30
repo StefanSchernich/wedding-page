@@ -12,15 +12,15 @@ import bamboo_train from "@/images/bamboo_train.jpg";
 import petra from "@/images/petra.jpg";
 import singapore from "@/images/singapore.jpg";
 import battambang from "@/images/battambang.jpg";
+import ijen from "@/images/ijen.jpg";
 
 const images = [
   <Image
-    priority
+    key="battambang"
     sizes="(max-width: 600px) 100vw, 600px"
-    key="wadirum"
-    src={wadirum}
+    src={battambang}
     className="mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
-    alt="Veronika und Stefan beim Sonnenuntergang in Wadi Rum, Jordanien"
+    alt="Veronika und Stefan in Battambang"
   />,
   <Image
     key="bamboo_train"
@@ -37,6 +37,13 @@ const images = [
     alt="Veronika und Stefan in Petra, Jordanien"
   />,
   <Image
+    sizes="(max-width: 600px) 100vw, 600px"
+    key="wadirum"
+    src={wadirum}
+    className="mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
+    alt="Veronika und Stefan beim Sonnenuntergang in Wadi Rum, Jordanien"
+  />,
+  <Image
     key="singapore"
     sizes="(max-width: 600px) 100vw, 600px"
     src={singapore}
@@ -44,11 +51,11 @@ const images = [
     alt="Veronika und Stefan in Singapur"
   />,
   <Image
-    key="battambang"
+    key="ijen"
     sizes="(max-width: 600px) 100vw, 600px"
-    src={battambang}
+    src={ijen}
     className="mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
-    alt="Veronika und Stefan in Battambang"
+    alt="Veronika und Stefan auf dem Ijen, Indonesien"
   />,
 ];
 

@@ -17,7 +17,6 @@ export default function ContactForm() {
   const [isSuccess, setIsSuccess] = useState(false);
 
   const apiKey = process.env.WEB3FORMS_API_KEY;
-  console.log(apiKey);
 
   const { submit: onSubmit } = useWeb3Forms({
     access_key: apiKey!,
