@@ -12,7 +12,7 @@ const faqs = [
     value: "item-1",
     triggerText: "Wie heiratet ihr?",
     content:
-      "Nur standesamtlich. Danach möchten wir ganz entspannt ein bisschen mit euch feiern.",
+      "Nur standesamtlich im kleinen Kreis. Danach möchten wir ganz entspannt ein bisschen mit euch feiern.",
   },
   {
     value: "item-2",
@@ -36,6 +36,11 @@ const faqs = [
     triggerText: "Kann man auch übernachten?",
     content:
       "Ja, der Herzogspark bietet für Hochzeitsgäste Zimmer für 115€ (EZ) bzw. 125€ (DZ) an.",
+  },
+  {
+    value: "item-6",
+    triggerText: "Können wir unsere Kinder mitbringen?",
+    content: "Ausnahmsweise! Spaß beiseite: Ja, klar.",
   },
 ];
 
