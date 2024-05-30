@@ -11,10 +11,13 @@ export default function ImageTicker({ children }: { children: JSX.Element[] }) {
   const [isPlaying, setIsPlaying] = useState<boolean>(true);
   return (
     <motion.div
-      style={{ x: smoothedXShift }}
+      style={{ x: smoothedXShift, userSelect: "none" }}
       onHoverStart={() => setIsPlaying(false)}
       onHoverEnd={() => setIsPlaying(true)}
-      onTouchStart={() => setIsPlaying(false)}
+      onTouchStart={(e: React.TouchEvent) => {
+        e.preventDefault();
+        setIsPlaying(false);
+      }}
       onTouchEnd={() => setIsPlaying(true)}
     >
       <Ticker duration={30} isPlaying={isPlaying}>
