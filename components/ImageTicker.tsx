@@ -19,6 +19,7 @@ export default function ImageTicker({ children }: { children: JSX.Element[] }) {
         setIsPlaying(false);
       }}
       onTouchEnd={() => setIsPlaying(true)}
+      onContextMenu={(e: React.MouseEvent) => e.preventDefault()}
     >
       <Ticker duration={30} isPlaying={isPlaying}>
         {children}
