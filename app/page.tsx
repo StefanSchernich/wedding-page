@@ -105,7 +105,8 @@ export default function Home() {
             alt="Veronika und Stefan beim Sonnenuntergang in Wadi Rum, Jordanien"
           />
         </div>
-        <div className="-mt-16 h-0 w-full overflow-hidden lg:mt-auto lg:h-auto">
+        {/* BUG: Moves the container on page and creates gaps on side */}
+        <div className="-mt-16 w-full lg:mt-auto lg:block">
           <ImageTicker>{images}</ImageTicker>
         </div>
         <article className="flex w-full flex-col items-center gap-5 md:flex-row md:justify-center">
