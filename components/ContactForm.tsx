@@ -17,6 +17,7 @@ export default function ContactForm() {
   const [isSuccess, setIsSuccess] = useState(false);
 
   const apiKey = process.env.WEB3FORMS_API_KEY;
+  console.log(apiKey);
 
   const { submit: onSubmit } = useWeb3Forms({
     access_key: apiKey!,
@@ -41,11 +42,6 @@ export default function ContactForm() {
           autoComplete="off"
           onSubmit={handleSubmit(onSubmit)}
         >
-          <input
-            type="hidden"
-            value="22691cf8-8d89-4f23-81cd-dddfd01c0ecc"
-            {...register("access_key")}
-          />
           <div className="w-full text-xl">
             <p className="font-bold">Gebt uns Rückmeldung:</p>
             <p>Per Handy, eMail oder mit dem folgenden Formular.</p>
