@@ -47,14 +47,14 @@ const images = [
     key="singapore"
     sizes="(max-width: 600px) 100vw, 600px"
     src={singapore}
-    className="mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
+    className="pointer-events-none mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
     alt="Veronika und Stefan in Singapur"
   />,
   <Image
     key="ijen"
     sizes="(max-width: 600px) 100vw, 600px"
     src={ijen}
-    className="mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
+    className="pointer-events-none mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
     alt="Veronika und Stefan auf dem Ijen, Indonesien"
   />,
 ];
