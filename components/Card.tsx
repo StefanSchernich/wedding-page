@@ -21,7 +21,7 @@ export default function Card({ icon, text1, text2 }: CardProps) {
       scale: 1,
       transition: {
         type: "linear",
-        duration: 0.3,
+        duration: 0.5,
       },
     },
   };

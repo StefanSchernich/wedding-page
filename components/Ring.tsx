@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 function Ring() {
   const variants = {
     hidden: { filter: "blur(10px)", opacity: 0 },
-    visible: { filter: "blur(0px)", opacity: 1 },
+    visible: { filter: "blur(0px)", opacity: 1, transition: { duration: 1.5 } },
   };
 
   return (

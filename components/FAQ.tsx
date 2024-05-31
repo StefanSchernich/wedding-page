@@ -28,17 +28,22 @@ const faqs = [
   },
   {
     value: "item-4",
+    triggerText: "Kann man an der Location parken?",
+    content: "Ja, der Herzogspark hat ausreichend Parkplätze.",
+  },
+  {
+    value: "item-5",
     triggerText: "Was wünscht ihr euch als Geschenk?",
     content: "Geld ist immer gut. 😉",
   },
   {
-    value: "item-5",
+    value: "item-6",
     triggerText: "Kann man auch übernachten?",
     content:
-      "Ja, der Herzogspark bietet für Hochzeitsgäste Zimmer für 115€ (EZ) bzw. 125€ (DZ) an.",
+      "Ja, der Herzogspark bietet für Hochzeitsgäste Zimmer für 105€ (EZ) bzw. 145€ (DZ) an. Alternativ auch in der Dependance Akazienhaus direkt neben dem Herzogspark für 80€ (EZ) bzw. 120€ (DZ). Frühstück ist jeweils dabei.",
   },
   {
-    value: "item-6",
+    value: "item-7",
     triggerText: "Können wir unsere Kinder mitbringen?",
     content: "Ausnahmsweise! Spaß beiseite: Ja, klar.",
   },
