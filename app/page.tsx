@@ -7,58 +7,6 @@ import { CalendarClock, MapPin, CircleAlert } from "lucide-react";
 import ImageTicker from "@/components/ImageTicker";
 import Ring from "@/components/Ring";
 
-import wadirum from "@/images/wadirum.jpg";
-import bamboo_train from "@/images/bamboo_train.jpg";
-import petra from "@/images/petra.jpg";
-import singapore from "@/images/singapore.jpg";
-import battambang from "@/images/battambang.jpg";
-import ijen from "@/images/ijen.jpg";
-
-const images = [
-  <Image
-    key="battambang"
-    sizes="(max-width: 600px) 100vw, 600px"
-    src={battambang}
-    className="pointer-events-none mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
-    alt="Veronika und Stefan in Battambang"
-  />,
-  <Image
-    key="bamboo_train"
-    sizes="(max-width: 600px) 100vw, 600px"
-    src={bamboo_train}
-    alt="Veronika und Stefan auf dem Bamboo Train in Battambang, Kambodscha"
-    className="pointer-events-none mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
-  />,
-  <Image
-    key="petra"
-    sizes="(max-width: 600px) 100vw, 600px"
-    src={petra}
-    className="pointer-events-none mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
-    alt="Veronika und Stefan in Petra, Jordanien"
-  />,
-  <Image
-    sizes="(max-width: 600px) 100vw, 600px"
-    key="wadirum"
-    src={wadirum}
-    className="pointer-events-none mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
-    alt="Veronika und Stefan beim Sonnenuntergang in Wadi Rum, Jordanien"
-  />,
-  <Image
-    key="singapore"
-    sizes="(max-width: 600px) 100vw, 600px"
-    src={singapore}
-    className="mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
-    alt="Veronika und Stefan in Singapur"
-  />,
-  <Image
-    key="ijen"
-    sizes="(max-width: 600px) 100vw, 600px"
-    src={ijen}
-    className="mx-2 max-h-[200px] max-w-[300px] rounded-lg object-cover md:max-h-[400px] md:max-w-[600px] lg:mx-4"
-    alt="Veronika und Stefan auf dem Ijen, Indonesien"
-  />,
-];
-
 export default function Home() {
   return (
     <main className="relative overflow-hidden font-lato">
@@ -113,7 +61,7 @@ export default function Home() {
         {/* 
         // #region Ticker
          */}
-        <ImageTicker>{images}</ImageTicker>
+        <ImageTicker />
         <article className="flex w-full flex-col items-center gap-5 md:flex-row md:justify-center">
           <Card
             icon={<CalendarClock size={40} strokeWidth={1.5} />}
