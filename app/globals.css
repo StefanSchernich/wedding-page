@@ -1,4 +1,8 @@
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-  
+@tailwind components;
+@tailwind utilities;
+
+.FMT__container,
+.FMT__container__contents {
+  user-select: none;
+}
