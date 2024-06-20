@@ -42,7 +42,7 @@ export default function ContactForm() {
           onSubmit={handleSubmit(onSubmit)}
         >
           <div className="w-full text-xl">
-            <p className="font-bold">Gebt uns Rückmeldung:</p>
+            <p className="font-bold">Gebt uns Rückmeldung!</p>
             <p>Per Handy, eMail oder mit dem folgenden Formular.</p>
           </div>
 
