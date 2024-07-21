@@ -62,7 +62,7 @@ export default function ContactForm() {
             )}
           </div>
 
-          <div className="w-full">
+          {/* <div className="w-full">
             <input
               type="email"
               className="w-full rounded-lg px-4 py-2 outline-none focus-visible:ring-2 focus-visible:ring-darkdusty"
@@ -80,7 +80,7 @@ export default function ContactForm() {
                 <small>{errors.email.message as string}</small>
               </div>
             )}
-          </div>
+          </div> */}
 
           <div className="w-full">
             <textarea

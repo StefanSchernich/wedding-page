@@ -48,7 +48,7 @@ export default function Card({
       viewport={{ once: true, amount: 0.5 }}
       className="relative flex w-full min-w-[335px] max-w-[390px] flex-col rounded-lg border border-strongblush bg-neutralblush p-5 text-xl text-strongblush"
     >
-      <div className="font-playfair absolute right-3 text-[128px] font-bold opacity-20">
+      <div className="absolute right-3 font-playfair text-[128px] font-bold opacity-20">
         {itemNum}
       </div>
       <div className="flex flex-col gap-8">
