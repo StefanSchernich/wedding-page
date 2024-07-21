@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Lato, Great_Vibes } from "next/font/google";
+import { Lato, Great_Vibes, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
 const lato = Lato({
@@ -11,6 +11,10 @@ const great_vibes = Great_Vibes({
   subsets: ["latin"],
   weight: "400",
   variable: "--font-greatvibes",
+});
+const plairfair_display = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +29,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de">
-      <body className={`${lato.variable} ${great_vibes.variable} bg-softblush`}>
+      <body
+        className={`${lato.variable} ${great_vibes.variable} ${plairfair_display.variable} bg-softblush`}
+      >
         {children}
       </body>
     </html>

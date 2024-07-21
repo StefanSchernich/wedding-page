@@ -12,40 +12,53 @@ const faqs = [
     value: "item-1",
     triggerText: "Wie heiratet ihr?",
     content:
-      "Nur standesamtlich im kleinen Kreis. Danach möchten wir ganz entspannt ein bisschen mit euch feiern.",
+      "Nur standesamtlich in Obermichelbach. Wer mag, darf gerne zum Standesamt kommen. Der Raum ist groß genug für alle ~35 Eingeladenen. Ansonsten sehen wir uns danach im Herzogspark.",
   },
   {
     value: "item-2",
+    triggerText: "Wie ist der Ablauf?",
+    content:
+      "Direkt nach der standesamtlichen Hochzeit gibt es in der Bürgerhalle einen Sektempfang. Danach fahren wir zum Herzogspark, wo wir ab 16:30 Uhr die Hochzeitstorte mit Kaffee servieren. Ab 18:30 Uhr gibt es dann ein fränkisches Buffet!",
+  },
+  {
+    value: "item-3",
     triggerText: "Wollt ihr einen JGA?",
     content:
       "Nein, danke! Ist nicht unser Ding. Wie freuen uns stattdessen auf den 04.10. mit euch!",
   },
   {
-    value: "item-3",
+    value: "item-4",
     triggerText: "Wie ist der Dresscode?",
     content:
       "Wäre schön, wenn ihr euch etwas schick macht. Wie man eben zu einer Hochzeit geht. Ihr müsst es aber nicht übertreiben!",
   },
   {
-    value: "item-4",
-    triggerText: "Kann man an der Location parken?",
-    content: "Ja, der Herzogspark hat ausreichend Parkplätze.",
+    value: "item-5",
+    triggerText: "Kann man an den Locations parken?",
+    content:
+      "Ja, sowohl vor der Bürgerhalle als auch beim Herzogspark gibt es ausreichend Parkplätze.",
   },
   {
-    value: "item-5",
+    value: "item-6",
     triggerText: "Was wünscht ihr euch als Geschenk?",
     content: "Geld ist immer gut. 😉",
   },
   {
-    value: "item-6",
+    value: "item-7",
     triggerText: "Kann man auch übernachten?",
     content:
       "Ja, der Herzogspark bietet für Hochzeitsgäste Zimmer für 105€ (EZ) bzw. 145€ (DZ) an. Alternativ auch in der Dependance Akazienhaus direkt neben dem Herzogspark für 80€ (EZ) bzw. 120€ (DZ). Frühstück ist jeweils dabei.",
   },
   {
-    value: "item-7",
+    value: "item-8",
     triggerText: "Können wir unsere Kinder mitbringen?",
     content: "Ausnahmsweise! Spaß beiseite: Ja, klar.",
+  },
+  {
+    value: "item-9",
+    triggerText: "Wen können wir bei Fragen kontaktieren?",
+    content:
+      "Veronikas Schwester Alexandra ist unsere Wedding Plannerin. Ihr könnt sie unter 0157 - 3626 2799 kontaktieren.",
   },
 ];
 

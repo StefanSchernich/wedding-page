@@ -116,14 +116,24 @@ export default function Home() {
         <ImageTicker>{images}</ImageTicker>
         <article className="flex w-full flex-col items-center gap-5 md:flex-row md:justify-center">
           <Card
-            icon={<CalendarClock size={40} strokeWidth={1.5} />}
-            text1="Freitag, 04.10.2024"
-            text2="17:00 Uhr"
+            itemNum="1"
+            icon1={<CalendarClock size={40} strokeWidth={1.5} />}
+            text1a="Freitag, 04.10.2024"
+            text1b="ca. 15:00 Uhr"
+            icon2={<MapPin size={40} strokeWidth={1.5} />}
+            text2a="Bürgerhalle"
+            text2b="Vacher Straße 25"
+            text2c="Obermichelbach"
           />
           <Card
-            icon={<MapPin size={40} strokeWidth={1.5} />}
-            text1="Hotel Herzogspark"
-            text2="91074 Herzogenaurach"
+            itemNum="2"
+            icon1={<CalendarClock size={40} strokeWidth={1.5} />}
+            text1a="Freitag, 04.10.2024"
+            text1b="ca. 17:00 Uhr"
+            icon2={<MapPin size={40} strokeWidth={1.5} />}
+            text2a="Hotel Herzogspark"
+            text2b="Beehovenstraße 6"
+            text2c="Herzogenaurach"
           />
         </article>
       </section>

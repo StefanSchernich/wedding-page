@@ -43,6 +43,7 @@ const config = {
       fontFamily: {
         lato: ["var(--font-lato)"],
         greatvibes: ["var(--font-greatvibes)"],
+        playfair: ["var(--font-playfair)"],
       },
     },
   },
