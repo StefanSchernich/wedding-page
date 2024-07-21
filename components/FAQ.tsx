@@ -76,7 +76,7 @@ export default function FAQ() {
           value={value}
           className="py-2 last:border-b-0"
         >
-          <AccordionTrigger className="bold md:text-xl">
+          <AccordionTrigger className="bold text-left md:text-xl">
             {triggerText}
           </AccordionTrigger>
           <AccordionContent className="text-balance text-gray-600 md:text-lg">
