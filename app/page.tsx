@@ -132,7 +132,7 @@ export default function Home() {
             text1b="ca. 17:00 Uhr"
             icon2={<MapPin size={40} strokeWidth={1.5} />}
             text2a="Hotel Herzogspark"
-            text2b="Beehovenstraße 6"
+            text2b="Beethovenstraße 6"
             text2c="Herzogenaurach"
           />
         </article>
