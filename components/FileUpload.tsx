@@ -65,7 +65,7 @@ const FileUpload = () => {
       <div className="flex w-full flex-col items-center gap-4">
         {progress.map((prog, index) => (
           <div className="w-full space-y-2" key={index}>
-            <p>Upload-Fortschritt Datei {index + 1}</p>
+            <p>Upload-Fortschritt Foto {index + 1}</p>
             <progress
               className="w-full [&::-moz-progress-bar]:bg-violet-400 [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-bar]:bg-gray-300 [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-value]:bg-darkdusty"
               id="index"
