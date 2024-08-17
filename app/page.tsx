@@ -2,7 +2,7 @@ import Image from "next/image";
 import Card from "@/components/Card";
 import FAQ from "@/components/FAQ";
 import ContactForm from "@/components/ContactForm";
-import { CalendarClock, MapPin, CircleAlert } from "lucide-react";
+import { CalendarClock, MapPin, Info } from "lucide-react";
 
 import ImageTicker from "@/components/ImageTicker";
 import Ring from "@/components/Ring";
@@ -119,7 +119,7 @@ export default function Home() {
             itemNum="1"
             icon1={<CalendarClock size={40} strokeWidth={1.5} />}
             text1a="Freitag, 04.10.2024"
-            text1b="ca. 15:00 Uhr"
+            text1b="15:00 Uhr"
             icon2={<MapPin size={40} strokeWidth={1.5} />}
             text2a="Bürgerhalle"
             text2b="Vacher Straße 25"
@@ -141,7 +141,7 @@ export default function Home() {
         // #region deadline
          */}
       <section className="relative -z-20 flex w-full flex-col items-center gap-3 bg-darkdusty py-8 md:py-12">
-        <CircleAlert size={50} strokeWidth={1.5} />
+        <Info size={50} strokeWidth={1.5} />
         <div className="flex flex-col gap-2 text-center text-xl">
           <p>Gebt uns bitte bis zum</p>
           <p className="text-2xl font-bold">15.08.2024</p>
